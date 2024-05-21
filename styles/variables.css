@@ -1,13 +1,13 @@
 :root {
   --font-family: "Inter-Variable";
   --second-family: "PressStart2P-Regular";
-
   --accent-color: #000;
   --background-color: #fff;
   --gradient-patern-color:  #d3d3d3;  
   --gradient-color-top: #e7e7e7;
   --gradient-color-bottom: #1a1a1a;
-  --buttons-active: var(--accent-color);
+  --buttons-active: var(--background-color);
+  --button-focus: var(--accent-color);
   --heart: #f00;
 }
 
