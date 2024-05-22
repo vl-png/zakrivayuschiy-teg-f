@@ -10,16 +10,3 @@
   --button-focus: var(--accent-color);
   --heart: #f00;
 }
-
-
-@media (width >= 700px) {
-  .save-button {
-    flex-direction: row;
-    block-size: 55px;
-  }
-
-  .floppy-svg {
-    width: 21px;
-    height: 21px;
-  }
-}

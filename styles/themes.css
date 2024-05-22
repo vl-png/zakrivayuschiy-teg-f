@@ -1,3 +1,4 @@
+
 :root.theme-light {
   --accent-color: #000;
   --background-color: #fff;
@@ -18,4 +19,17 @@
   --buttons-active: var(--accent-color);
   --button-focus: var(--accent-color);
   --heart: #f00;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --accent-color: #00cc14;
+  --background-color: #000;
+  --gradient-patern-color:  var(--background-color);  
+  --gradient-color-top: #007f0c;
+  --gradient-color-bottom: #004306;
+  --buttons-active: var(--accent-color);
+  --button-focus: var(--accent-color);
+  --heart: #f00;
+}
 }
